@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-You</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+       body{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0%;
+       } 
+        a {
+            text-decoration: none;
+            color:rgb(29, 29, 29)
+        }
+
+        h1 {
+            font-family: 'DM Serif Display', serif;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+
+        h3{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .catalog {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .catalog {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .contenedor {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .oscurecer {
+            filter: brightness(60%);
+        }
+
+        .texto-encima {
+            position: absolute;
+            color: beige;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .compra{
+            color: beige;
+            font-weight: bold;
+            background-color: black;            
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1 style=" font-size: 50px;">B-You</h1>
+
+    </header>
+    <table cellspacing="25">
+        <tr>
+            <td> <a href="">Inicio</a></td>
+            <td><a href="">Tienda</a></td>
+            <td><a href="">Lo nuevo</a></td>
+            <td><a href="">Sale</a></td>
+            <td><a href="">Contacto</a></td>
+        </tr>
+    </table>
+
+    <div class="contenedor">
+        <img class="oscurecer" src="img catalogo/portada.jpg" alt="portada" width="100%">
+        <br><br>
+        <p class="texto-encima" style=" font-size: 30px;" > Descubre lo nuevo en moda auténtica y sustentable <br><br> <span class="spa" style=" font-size: 15px;""> <a class="compra" href=""> >>COMPRA AHORA<< </a> </span>
+        </p>
+    </div>
+
+    <h3 style="text-align: center;">¿CUÁL SERÁ TU NUEVO ESTILO HOY?</h3>
+    <div class="catalog" style="margin-top:0%;">
+        <div>
+            <a href=""><img src="img catalogo/img01" alt="" width="300px"></a>
+            <p style="font-size: 13px;">POLERA RENACER MARRÓN</p>
+            <p>S/.40.00 </p>
+        </div>
+        <div>
+            <a href=""><img src="img catalogo/img02" alt="" width="300px"></a>
+            <p style="font-size: 13px;">FALDA MAGIA PLOMA</p>
+            <p>S/.54.00 </p>
+        </div>
+        <div>
+            <a href=""><img src="img catalogo/img03" alt="" width="300px"></a>
+            <p style="font-size: 13px;">CARDIGAN REAL LIFE</p>
+            <p>S/.70.00 </p>
+        </div>
+    </div>
+
+    <div class="catalog" style="margin-top:0%;">
+        <div>
+            <a href=""><img src="img catalogo/img04" alt="" width="300px"></a>
+            <p style="font-size: 13px;">GORRO CONEXIÓN</p>
+            <p>S/.35.00 </p>
+        </div>
+        <div>
+            <a href=""><img src="img catalogo/img05" alt="" width="300px"></a>
+            <p style="font-size: 13px;">CAFARENA SONRIE MARRÓN</p>
+            <p>S/.48.00 </p>
+        </div>
+        <div>
+            <a href=""><img src="img catalogo/img06" alt="" width="300px"></a>
+            <p style="font-size: 13px;">CHOMPA RECUERDA</p>
+            <p>S/.120.00 </p>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
