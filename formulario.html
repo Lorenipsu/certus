@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <!-- ACTION: ENDPOINT, URL que es proporcionada por el backend 
+    
+    URL: https://www.ejemplo.com/contacto
+    METHOD:
+        POST - Enviamos a guardar información a un form contacto
+        GET - Solicitamos información, traer datos
+    REQUEST:
+        dirección
+        género
+        idioma
+        email
+    -->
+    <input action="https://www.ejemplo.com/contacto" method="post">
+    <!--AQUI VA MI FORMULARIO DE CONTACTENOS-->
+    <label for="dirección">Dirección:</label>
+    <input type="text" name="dirección" id="dirección" placeholder="Aquí dirección de su casa" />
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="number" name="edad" id="edad" min="5" max="10" value="18" />
+    <br>
+    Email: <input type="email" name="email" value="@" placeholder="" />
+    <br>
+
+    <label for="genero">Genero</label>
+    <label for="genero-masculino">M</label>
+    <input name="genero" id="genero-masculino" type="radio" value="m" checked />
+    <label for="genero-femenino">F</label>
+    <input name="genero" id="genero-femenino" type="radio" value="f" />
+    <br>
+
+
+    <label for="idiomas">Idiomas</label>
+    <label for="idiomas-ingles">Ingles</label>
+    <input name="idiomas" id="idiomas-ingles" type="checkbox" value="i" checked />
+    <label for="idiomas-frances">Francés</label>
+    <input name="idiomas" id="idiomas-frances" type="checkbox" value="f" />
+    <br>
+
+    <input type="file"/>
+  
+
+    <select>
+        <option>LIMA</option>
+        <option>COMAS</option>
+    </select>
+   
+
+    <input type="submit" value="ENVIAR" />
+    <button type="summit">ENVIAR</button>
+
+    </form>
+</body>
+
+</html>
