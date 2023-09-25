@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    background-image: url('imagenes/loro.jpg');
+    background-repeat: repeat-y;
+}
+
+header{
+    position: relative;
+    top: 1em;
+   
+}
+
+h1 {
+  /*  border: solid 1px gray; */
+   border-width: 5px;   
+   border-style: solid;
+   border-color: blue;
+   position: sticky;
+   top: 1em;
+
+}
+
+section > img{
+    border: 1px solid green;
+    
+
+    margin: 10px 5px 25px 35px;
+}
+/*
+p.boxsizing {
+    margin: none;
+    box-sizing: content-box;
+    width: 300px;
+    height: 150px;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: red;
+  
+    font-family: Verdada;
+    color: green;
+    font-style: italic;
+}
+*/
